@@ -13,13 +13,13 @@ class Translation(object):
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    DOWNLOAD_START = "Downloading..."
-    UPLOAD_START = "uploading..."
+    DOWNLOAD_START = "Wssting My Data and Downloading 😑😑"
+    UPLOAD_START = "Finally Uploading. Pray for no errors 👻"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "Thank You For Using Me @AID_3N"
+    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2.0GB due to Telegram API limitations."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "Thank You For Using Me. Now never comeagain to upload 🤪"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \nUploaded in {} seconds."
-    NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
+    NOT_AUTH_USER_TEXT = "UR NOT AUTHORIZED, GTFO PLOX."
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}."
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
@@ -33,7 +33,7 @@ URL | filename | username | password"""
 --------
 Telegram ID: <code>{}</code>
 Plan name: ViP
-Expires on: Untill my death ☭"""
+Expires on: Never ig 🤔"""
     HELP_USER = """ <b>1. Send url (Link|New Name with Extension).
 2. Send Custom Thumbnail (Optional).
 3. Select the button.
