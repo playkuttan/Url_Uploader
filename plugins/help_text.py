@@ -44,7 +44,7 @@ async def help_user(bot, update):
     )
 
 
-@pyrogram.Client.on_message(pyrogram.Filters.command(["me", "me@ziggyuploaderbot]))
+@pyrogram.Client.on_message(pyrogram.Filters.command(["me", "me@ziggyuploaderbot"]))
 async def get_me_info(bot, update):
     # logger.info(update)
     TRChatBase(update.from_user.id, update.text, "/me")
@@ -70,7 +70,7 @@ async def start(bot, update):
     )
 
 
-@pyrogram.Client.on_message(pyrogram.Filters.command(["upgrade", "upgrade@ziggyuploaderbot]))
+@pyrogram.Client.on_message(pyrogram.Filters.command(["upgrade", "upgrade@ziggyuploaderbot"]))
 async def upgrade(bot, update):
     # logger.info(update)
     TRChatBase(update.from_user.id, update.text, "/upgrade")
