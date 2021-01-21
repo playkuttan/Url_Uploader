@@ -38,8 +38,8 @@ from hachoir.parser import createParser
 from PIL import Image
 
 
-@pyrogram.Client.on_message(pyrogram.Filters.command(["upload", "upload@ziggyuploaderbot]))
-async def ddl_call_back(bot, update):
+Client.on_message(pyrogram.Filters.command(["upload", "upload@ziggyuploaderbot]))
+async def ddl_call_back(bot, update, client):
     logger.info(update)
     cb_data = update.data
     # youtube_dl extractors
